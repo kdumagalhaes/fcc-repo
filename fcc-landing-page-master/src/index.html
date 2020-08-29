@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FCC Landing Page</title>
+  </head>
+  <body class="bg-yellow-400 pt-56">
+    <header id="header"class="flex justify-between items-center pt-4 pr-10 pl-10 pb-6 fixed mb-36 bg-yellow-400 w-full top-0"/>
+      <img src="./assets/logo.png" alt="logo" id="header-img" class="w-40"/>
+      <nav id="nav-bar">
+        <ul class="flex">
+          <li class="mr-10 font-bold transition duration-300 text-yellow-800 hover:text-red-600"><a href="#features" class="nav-link">Features</a></li>
+          <li class="mr-10 font-bold transition duration-300 text-yellow-800 hover:text-red-600"><a href="#products" class="nav-link">Products</a></li>
+          <li class="font-bold transition duration-300 text-yellow-800 hover:text-red-600" ><a href="#be-aware" class="nav-link">Be Aware</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="features" class="w-40 w-full mb-40">
+      <h2 class="text-3xl font-extrabold text-center text-red-800 mb-4">A small demonstration!</h2>
+      <iframe class="mx-auto" id="video" width="760" height="515" src="https://www.youtube.com/embed/QHDO78QfLbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div id="products" class="w-40 w-full mb-40">
+    <h2 class="text-3xl font-extrabold text-center text-red-800 mb-4">Our kits!</h2>
+    <ul class="flex justify-center">
+      <li><img class="w-64 mr-10" src="./assets/products/1.jpg" alt="product 1"></li>
+      <li><img class="w-64 mr-10" src="./assets/products/2.jpg" alt="product 2"></li>
+      <li><img class="w-64 mr-10" src="./assets/products/3.png" alt="product 3"></li>
+    </ul>
+  </div>
+  <div id="be-aware" class="max-w-xl mb-40 mx-auto">
+    <h2 class="text-3xl font-extrabold text-center text-red-800 mb-4">Be aware!</h2>
+    <form action="https://www.freecodecamp.com/email-submit" id="form" class="flex">
+        <input class="p-4 w-full mr-1" id="email" type="email" name="email" placeholder="Enter your email" required>
+        <input class="p-4 cursor-pointer bg-yellow-600 text-white hover:bg-yellow-300 hover:text-yellow-800 transition duration-300" id="submit" type="submit" value="Let me know!">
+    </form>
+  </div>
+  <footer class="p-5 text-center text-sm text-yellow-600">Created using <a class="text-yellow-800 hover:text-yellow-600 transition duration-300" href="">Tailwind</a>.</footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
