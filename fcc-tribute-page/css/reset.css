@@ -1,0 +1,22 @@
+:root {
+    --primary: #ebdbc9;
+    --orange: #c55e38;
+    --dark-orange: #944527;
+    --green: #20382b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--green);
+}
+
+body, input, button {
+    font-family: 'Poppins', sans-serif;
+}
